@@ -95,16 +95,16 @@ hr {
 
 .top-cloud {
   position: absolute;
-  right: 300px;
-  top: 50px;
-  width: 12%
+  right: 15%;
+  top: 7%;
+  width: 15%
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 200px;
-  bottom: 300px;
-  width: 12%
+  left: 15%;
+  bottom: 40%;
+  width: 15%
 }
 
 .profile {
@@ -117,7 +117,7 @@ hr {
 
 .skill-row {
     margin: auto;
-    width: 70%;
+    width: 50%;
     padding: 30px;
     text-align: left;
 }
@@ -139,10 +139,32 @@ hr {
 
 .mountain {
   padding-top: 70px;
-  width: 100%;
+  width: 50%;
 }
 
 .intro {
   width: 70%;
   margin: auto;
+}
+
+@media (max-width: 1028px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .sub-title {
+    font-size: 1rem;
+  }
+  .skill-row {
+    width: 70%;
+  }
+  .mountain {
+    width: 70%;
+    padding-top: 0;
+  }
+  hr {
+    width: 10%;
+  }
+  .girl {
+    width: 15%;
+  }
 }
