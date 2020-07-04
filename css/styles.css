@@ -175,6 +175,9 @@ hr {
     font-size: 1.5rem;
   }
   .footer-link {
-  font-size: 2rem;
-}
+    font-size: 2rem;
+  }
+  .intro {
+    width: 80%;
+  }
 }
