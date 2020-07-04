@@ -151,8 +151,8 @@ hr {
   h1 {
     font-size: 5rem;
   }
-  .sub-title, .footer-link {
-    font-size: 1.5rem;
+  .sub-title, .footer-link, h2, h3 {
+    font-size: 3rem;
   }
   .skill-row {
     width: 80%;
@@ -168,7 +168,7 @@ hr {
     width: 15%;
   }
   p {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .intro {
     width: 85%;
