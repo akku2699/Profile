@@ -151,8 +151,11 @@ hr {
   h1 {
     font-size: 5rem;
   }
-  .sub-title, .footer-link, h2, h3 {
-    font-size: 3rem;
+  .sub-title, h2 {
+    font-size: 3.5rem;
+  }
+  h3 {
+    font-size: 3.5rem;
   }
   .skill-row {
     width: 80%;
@@ -167,10 +170,14 @@ hr {
   .girl {
     width: 15%;
   }
-  p {
+  p, .footer-link {
     font-size: 2rem;
   }
   .intro {
     width: 85%;
+  }
+ .btn {
+    padding: 2%;
+    font-size: 1.5rem;
   }
 }
