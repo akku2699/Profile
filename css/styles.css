@@ -147,9 +147,13 @@ hr {
   margin: auto;
 }
 
+.footer-link {
+  font-size: 1.5rem;
+}
+
 @media (max-width: 1028px) {
   h1 {
-    font-size: 4rem;
+    font-size: 5rem;
   }
   .sub-title {
     font-size: 1.5rem;
