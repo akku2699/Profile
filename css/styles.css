@@ -147,19 +147,15 @@ hr {
   margin: auto;
 }
 
-.footer-link {
-  font-size: 1.5rem;
-}
-
 @media (max-width: 1028px) {
   h1 {
     font-size: 5rem;
   }
-  .sub-title {
+  .sub-title, .footer-link {
     font-size: 1.5rem;
   }
   .skill-row {
-    width: 70%;
+    width: 80%;
   }
   .mountain {
     width: 70%;
@@ -174,10 +170,7 @@ hr {
   p {
     font-size: 1.5rem;
   }
-  .footer-link {
-    font-size: 2rem;
-  }
   .intro {
-    width: 80%;
+    width: 85%;
   }
 }
